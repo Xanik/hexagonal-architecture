@@ -48,7 +48,7 @@ func getEnvironment() env {
 		MailGunDomain:    os.Getenv("MAILGUN_DOMAIN"),
 		MailGunApiKey:    os.Getenv("MAILGUN_API_KEY"),
 		WebClientBaseUrl: os.Getenv("WEB_CLIENT_BASE_URL"),
-		ElasticsearchURL: "https://elastic:v9hKmmYyQg3dtht2lz759LGM@31b6486899c74ad095db11db761e5e7c.eu-west-1.aws.found.io:9243/",
+		ElasticsearchURL: "",
 		ElasticEnv:       os.Getenv("ELASTICSEARCH_ENV"),
 		S3REGION:         os.Getenv("S3REGION"),
 		S3BUCKET:         os.Getenv("S3BUCKET"),
