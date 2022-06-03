@@ -1,3 +1,6 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+.vscode
+.idea
 # Binaries for programs and plugins
 *.exe
 *.exe~
